@@ -4,7 +4,7 @@ import lombok.Builder;
 import lombok.Data;
 
 import java.math.BigDecimal;
-import java.util.ArrayList;
+import java.util.List;
 
 @Builder
 @Data
@@ -24,5 +24,5 @@ public class EffectivePrice {
     private BigDecimal effectivePrice;
     private String priceStatus;
     private String effectivePriceStatus;
-    private ArrayList<Offer> offers;
+    private List<Offer> offers;
 }
